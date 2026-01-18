@@ -1,6 +1,15 @@
-
+/**
+ * Alondra - Reyes Pagan
+ * CEN 4802 - Software Integration, Configuration, and Testing
+ * Assignment 1
+ * 17 January 2026
+ */
 //The extra code displayed here was just me exploring
 public class Main {
+    /**
+     * Main Method. Calls Fibonacci Method.
+     * @param args - Is an Array of String containing variables
+     */
 
     //private static long[] fibonacciCache;
     public static void main(String[] args) {
@@ -17,6 +26,12 @@ public class Main {
     until the 92nd fibonacci number, so for this case it works since we only need to find the 10th
      */
     //private static long fibonacci(int n) {
+
+    /**
+     * Is performing the Fibonacci Sequence, given the variable of n.
+     * @param n - Number nth of the sequence, and the method is trying to find the number of it.
+     * @return - Number in the nth position is defined because of its parameter.
+     */
     public static int fibonacci(int n) {
         if (n <= 1) {
             return n;
